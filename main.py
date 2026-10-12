@@ -1,12 +1,8 @@
 user_prompt = "Enter a todo:"
+todos = []
 
-todo1 = input(user_prompt)
-todo2 = input(user_prompt)
-todo3 = input(user_prompt)
-
-todos = [todo1,todo2,todo3,"Hello"]
-
-print(todos)
-
-print(type(todo1))
+while True:
+    todo = input(user_prompt)
+    todos.append(todo)
+    print(todos)
 
